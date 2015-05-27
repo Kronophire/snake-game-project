@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=canEat
+comment0.target=WorldObject(boolean)
+comment0.text=\r\n\ Creates\ a\ new\ WorldObject\ object.\r\n\ \r\n\ @param\ canEat\ checks\ if\ an\ object\ in\ the\ world\r\n\ can\ be\ eaten\ or\ not.\r\n
+comment1.params=
+comment1.target=boolean\ canBeEaten()
+comment1.text=\r\n\ The\ boolean\ for\ the\ canBeEaten()\ is\ to\ check\ if\r\n\ something,\ the\ obstacle\ or\ food,\ can\ be\ eaten.\r\n\ In\ this\ case,\ the\ food\ can\ be\ eaten\ but\ not\ the\ obstacle.\r\n\ \r\n\ @return\ canBeEaten\ saying\ that\ the\ worldObject,\ food,\ can\ be\r\n\ eaten.\r\n
+numComments=2

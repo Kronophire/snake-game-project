@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Background()
+comment0.text=\r\n\ Creates\ a\ new\ Background\ object.\ A\ Snake\ object\r\n\ would\ be\ created\ and\ added\ in\ the\ center\ of\ the\ world.\r\n\ One\ food\ would\ be\ added\ randomly\ anywhere\ into\r\n\ the\ world.\ Six\ obstacles\ will\ be\ added\ randomly\r\n\ anywhere\ into\ the\ world.\ 499\ Obstacles\ would\r\n\ be\ added\ \r\n
+numComments=1

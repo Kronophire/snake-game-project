@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.params=w\ x\ y
+comment0.target=Snake(sofia.micro.World,\ int,\ int)
+comment0.text=\r\n\ Creates\ a\ new\ Snake\ object.\ Creates\ an\r\n\ ArrayList\ of\ snake\ blocks\ after\ addBlock\r\n\ is\ executed.\ When\ storing\ the\ snake\ blocks\r\n\ as\ blocks,\ it\ would\ get\ added\ into\ the\ world\r\n\ after\ each\ time\ the\ snake\ eats\ a\ food\ and\ the\r\n\ snake\ blocks\ will\ follow\ the\ snake.\r\n\ \r\n\ @param\ w\ The\ initialized\ world\r\n\ @param\ x\ The\ x-axis\ of\ the\ snake\r\n\ @param\ y\ The\ y-axis\ of\ the\ snake\r\n
+comment1.params=
+comment1.target=void\ dpadEastIsDown()
+comment1.text=\r\n\ The\ dpadEastIsDown()\ method\ uses\r\n\ the\ right-arrow\ key\ to\ rotate\ 90\ degrees\ right.\r\n
+comment2.params=
+comment2.target=void\ dpadWestIsDown()
+comment2.text=\r\n\ The\ dpadWestIsDown()\ method\ uses\r\n\ the\ left-arrow\ key\ to\ rotate\ 90\ degrees\ left.\r\n
+comment3.params=
+comment3.target=void\ addBlock()
+comment3.text=\r\n\ The\ addBlock()\ method\ creates\ and\ add\ \r\n\ new\ snake\ blocks,\ first\ one\ that\ will\ be\ following\r\n\ the\ snake's\ headblock,\ then\ the\ next\ blocks\ \r\n\ will\ follow\ its\ previous\ blocks\ by\ getting\ their\r\n\ coordinates.\r\n
+comment4.params=
+comment4.target=void\ eat()
+comment4.text=\r\n\ The\ eat()\ method\ is\ when\ the\ snake's\ headblock\r\n\ collides\ with\ a\ food\ added\ into\ the\ world,\ then\ the\r\n\ food\ would\ get\ removed\ and\ more\ food\ will\ be\ added\r\n\ randomly\ anywhere\ into\ the\ world.\ When\ the\ snake\r\n\ collides\ with\ an\ obstacle\ in\ the\ world,\ then\ the\ game\r\n\ is\ over.\ A\ big\ red\ text\ around\ the\ center\ would\ appear\r\n\ and\ say\ "Game\ Over".\r\n
+comment5.params=
+comment5.target=void\ follow()
+comment5.text=\r\n\ The\ follow()\ method\ gets\ executed\ when\ the\ snake\r\n\ eats\ a\ food,\ then\ a\ block\ will\ be\ added\ into\ the\ \r\n\ world\ from\ the\ list\ it's\ being\ stored\ in.\ \r\n
+comment6.params=
+comment6.target=void\ act()
+comment6.text=\r\n\ The\ act()\ method\ for\ the\ Snake\ class.\r\n
+numComments=7
